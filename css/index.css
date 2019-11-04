@@ -380,6 +380,9 @@
     }
 
     @media (max-width: 500px){
+        * {
+            max-width: 100%;
+        }
 
         nav {
             height: 35vh;
@@ -394,6 +397,7 @@
             justify-content: center;
             text-align: center;
             font-size: 18px;
+            margin: 0;
         }
 
         .linkCont {
